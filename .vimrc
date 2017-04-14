@@ -9,6 +9,7 @@ set nocompatible
 
 " Set filetype off prior to installing plugins
 filetype off
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
