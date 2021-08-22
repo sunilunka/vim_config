@@ -9,7 +9,7 @@ set nocompatible
 
 " Set filetype off prior to installing plugins
 filetype off
-
+" Install vundle using git clone git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim/
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -31,6 +31,8 @@ Plugin 'pangloss/vim-javascript'
 " Tender colourscheme
 Plugin 'jacoborus/tender' 
 Plugin 'reewr/vim-monokai-phoenix'
+" Rust plugins
+Plugin 'rust-lang/rust.vim'
 " Typescript plugins
 Plugin 'leafgarland/typescript-vim'
 Plugin 'quramy/tsuquyomi'
